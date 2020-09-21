@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Módulo 1</title>
+  </head>
+  <body>
+    <h1>Módulo 1 - Trabalho Prático</h1>
+    <h3>Enunciado</h3>
+    <p>
+      Construa, utilizando HTML, CSS e JavaScript puro, uma aplicação para a
+      visualização de cores a partir da escala RGB
+    </p>
+    <h3>Atividades</h3>
+    <p>Os alunos deverão desempenhar as seguintes atividades:</p>
+    <table>
+      <ul>
+        <li>
+          Implementar, através de <b>HTML</b>, <b>CSS</b> e
+          <b>JavaScript</b> puro, uma aplicação que contenha
+          <b>três inputs</b> do tipo <b>“range”</b>, cujos valores vão de
+          <b>0 a 255</b> e representem, respectivamente,
+          <span class="rgbRed">R (Red – Vermelho)</span>,
+          <span class="rgbGreen">G (Green – Verde)</span> e
+          <span class="rgbBlue">B (Blue – Azul)</span>.
+        </li>
+        <li>
+          Essa combinação de valores deve ser utilizada para preencher a
+          <b>cor de fundo</b> de uma <b> div </b> quadrada.
+        </li>
+        <li>
+          Além disso,
+          <b>inclua três inputs de texto somente-leitura (desabilitados)</b>
+          para a visualização do <b>valor atual de cada input do tipo range.</b>
+        </li>
+        <li>
+          À medida em que o usuário modifica o valor dos ranges com as teclas ←
+          e → do teclado, a <b> div </b> deve refletir a cor correspondente.
+        </li>
+        <li>
+          A imagem abaixo ilustra uma possível interface para a aplicação.
+        </li>
+      </ul>
+    </table>
+
+    <h3>Selecione a cor desejada:</h3>
+
+    <div class="container">
+      <div class="inputs">
+        <label for="red">(R) Vermelho:</label>
+        <input type="range" name="red" id="colRed" min="0" max="255" />
+        <input
+          class="txtValor"
+          type="text"
+          name="Red"
+          id="numRed"
+          disabled
+          value="0"
+        />
+      </div>
+      <div class="inputs">
+        <label for="green"
+          >(G) Verde:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+        >
+        <input type="range" name="green" id="colGreen" min="0" max="255" />
+        <input
+          class="txtValor"
+          type="text"
+          name="Green"
+          id="numGreen"
+          disabled
+          value="0"
+        />
+      </div>
+      <div class="inputs">
+        <label for="blue"
+          >(B)
+          Blue:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+        >
+        <input type="range" name="blue" id="colBlue" min="0" max="255" />
+        <input
+          class="txtValor"
+          type="text"
+          name="Blue"
+          id="numBlue"
+          disabled
+          value="0"
+        />
+      </div>
+    </div>
+
+    <p>&nbsp; Cor escolhida</p>
+    <div id="colors"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
