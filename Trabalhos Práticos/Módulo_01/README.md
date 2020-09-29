@@ -4,19 +4,21 @@
 
 ### Objetivos
 
-Exercitar os seguintes conceitos trabalhados no Módulo:  
-[:heavy_check_mark:] Utilização de elementos HTML.
-[:heavy_check_mark:] Utilização de CSS.
-[:heavy_check_mark:] Utilização de identificadores em elementos HTML.
-[:heavy_check_mark:] Captura de referência de elementos com JavaScript.
-[:heavy_check_mark:] Manipulação de eventos com JavaScript.
-[:heavy_check_mark:] Utilização de funções com JavaScript e CSS.
-[:heavy_check_mark:] Manipulação direta de CSS com JavaScript.
+Exercitar os seguintes conceitos trabalhados no Módulo:
+
+- [:heavy_check_mark:] Utilização de elementos HTML.
+- [:heavy_check_mark:] Utilização de CSS.
+- [:heavy_check_mark:] Utilização de identificadores em elementos HTML.
+- [:heavy_check_mark:] Captura de referência de elementos com JavaScript.
+- [:heavy_check_mark:] Manipulação de eventos com JavaScript.
+- [:heavy_check_mark:] Utilização de funções com JavaScript e CSS.
+- [:heavy_check_mark:] Manipulação direta de CSS com JavaScript.
 
 ---
 
 :cyclone: Enunciado do exercício
-\*\* Construa, utilizando HTML, CSS e JavaScript puro, uma aplicação para a visualização de cores a partir da escala RGB.
+
+Construa, utilizando HTML, CSS e JavaScript puro, uma aplicação para a visualização de cores a partir da escala RGB.
 
 ---
 
@@ -32,7 +34,7 @@ Os alunos deverão desempenhar as seguintes atividades:
 
 ### Dicas
 
-[:heavy_check_mark:] Utilize o método load de window.addEventListener para garantir que o DOM esteja totalmente carregado antes de qualquer instrução JavaScript.
-[:heavy_check_mark:] Utilize id's nos inputs e na div para mapeá-los no script com document.querySelector. Para isso, utilize o evento “input” para mapear a mudança de valores no input do tipo range. Os inputs do tipo text devem ser somente-leitura.
-[:heavy_check_mark:] Não se preocupe tanto com a interface gráfica. O mais importante é o código estar funcionando.
-[:heavy_check_mark:] Para definir a cor da div, utilize style.backgroundColor. O valor deve ser uma string que, por sua vez, interpola a função rgb() do CSS. Mais informações aqui.
+- [:heavy_check_mark:] Utilize o método load de window.addEventListener para garantir que o DOM esteja totalmente carregado antes de qualquer instrução JavaScript.
+- [:heavy_check_mark:] Utilize id's nos inputs e na div para mapeá-los no script com document.querySelector. Para isso, utilize o evento “input” para mapear a mudança de valores no input do tipo range. Os inputs do tipo text devem ser somente-leitura.
+- [:heavy_check_mark:] Não se preocupe tanto com a interface gráfica. O mais importante é o código estar funcionando.
+- [:heavy_check_mark:] Para definir a cor da div, utilize style.backgroundColor. O valor deve ser uma string que, por sua vez, interpola a função rgb() do CSS. Mais informações aqui.
