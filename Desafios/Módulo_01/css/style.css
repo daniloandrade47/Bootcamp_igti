@@ -1,0 +1,109 @@
+body {
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 20px;
+  /*background-color: rgb(240, 243, 243);*/
+  font: normal 15pt Consolas;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+ul,
+li {
+  line-height: 20px;
+}
+
+span {
+  line-height: 20px;
+  font-weight: bold;
+  margin: 5px;
+  color: cornflowerblue;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: cornflowerblue;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 20px;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 20px;
+}
+
+/*list-style-type: circle;*/
+
+.container {
+  display: flex;
+}
+
+#countUsers {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px;
+  color: red;
+  align-items: center;
+}
+
+.responsive-users {
+  padding: 25px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 50%;
+}
+
+.responsive-static {
+  padding: 25px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 50%;
+  height: max-content;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.add {
+  border-radius: 50%;
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;
+}
+
+#statistics {
+  padding: 10px;
+}
+
+#sex-man,
+#sex-woman,
+#sum-ages,
+#avg-ages {
+  color: red;
+}

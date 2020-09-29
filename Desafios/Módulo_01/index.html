@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Desafio Módulo 1</title>
+  </head>
+  <body>
+    <h1>Pesquisa de Usuários</h1>
+
+    <div class="input-field">
+      <input
+        id="inputSearch"
+        type="text"
+        placeholder="Pesquisar por nome:"
+        autofocus
+      />
+      <button class="waves-effect waves-light btn blue" id="btnSearch">
+        Buscar
+      </button>
+    </div>
+
+    <div class="container">
+      <div class="responsive-users">
+        <span><span id="countUsers"></span> usuário(s) encontrado(s)</span>
+        <div id="tabAllUsers"></div>
+      </div>
+
+      <div class="responsive-static">
+        <span>Estatísticas</span>
+        <div id="statistics">
+          <ul>
+            <li>Sexo masculino: <span id="sex-man"></span></li>
+            <li>Sexo feminino: <span id="sex-woman"></span></li>
+            <li>Soma das idades: <span id="sum-ages"></span></li>
+            <li>Média das idades: <span id="avg-ages"></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
