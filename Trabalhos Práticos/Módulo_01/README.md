@@ -1,6 +1,6 @@
 # Trabalho Prático
 
-## Módulo 1 Fundamentos do Bootcamp
+## Módulo 1 - Fundamentos do Bootcamp
 
 ### Objetivos
 
