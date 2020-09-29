@@ -1,16 +1,18 @@
 # :computer: :books: Bootcamp Desenvolvedor Full Stack
 
-### :man: meu nome é Danilo S. Andrade
+### :man: Olá! Meu nome é Danilo S. Andrade, :blush: Seja bem vindo ao meu repositório Github!
 
 ![linkedin](https://www.linkedin.com/in/daniloandrade47/)
 
-### :blush: Bem vindo ao meu repositório Github!
+:date: Repositório criado em: 21/09/2020
 
-:date: Data da Criação: - 21/09/2020
+---
 
 ## :question: O que você encontrará aqui?
 
 Aqui você poderá acompanhar minha evolução no Bootcamp Desenvolvedor Full Stack do IGTI, com completo acesso aos trabalhos realizados para nota.
+
+---
 
 ## :heavy_check_mark: PROGRESSO
 
